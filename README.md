@@ -54,4 +54,4 @@ B. AttackStrategy
     }
 
 ## UML Class Diagram:
-![411860667-8a0ec9a7-54c1-4e24-9a78-846914b79115](https://github.com/user-attachments/assets/435009ed-c1ec-4853-9bd4-413799a6a4eb)
+![411860667-8a0ec9a7-54c1-4e24-9a78-846914b79115](https://github.com/user-attachments/assets/65771e6b-3a3c-49d2-92cd-13d9075fc78d)
