@@ -20,7 +20,7 @@ B. AttackStrategy
   2.  ShootArrow
   3.  SwingSword  
 
-**Refactor the existing codes and provide the UML Diagram:**
+**Refactor the existing codes and provide the UML Class Diagram:**
 
     public class Character {
         private String type;
