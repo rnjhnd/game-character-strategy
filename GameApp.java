@@ -7,7 +7,6 @@ public class GameApp {
         knight.defend();
         System.out.println();
 
-
         Character wizard = new Character(new WizardAttack(), new WizardDefense());
         
         System.out.println("Wizard:");
