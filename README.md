@@ -43,12 +43,15 @@ B. AttackStrategy
             if (type.equals("Knight")) {
                 System.out.println("Using a shield to defend!");
     	System.out.println("Dodgin to avoid attack!");
-                System.out.println("Creating a magic barrier for defense!"");		
+                System.out.println("Creating a magic barrier for defense!");		
     
             } else if (type.equals("Wizard")) {
-                System.out.println("Creating a magic barrier for defense!"");
+                System.out.println("Creating a magic barrier for defense!");
             } else if (type.equals("Archer")) {
-                System.out.println("Using a shield to defend!"");
+                System.out.println("Using a shield to defend!");
             }
         }
     }
+
+## UML Diagram:
+![411860667-8a0ec9a7-54c1-4e24-9a78-846914b79115](https://github.com/user-attachments/assets/435009ed-c1ec-4853-9bd4-413799a6a4eb)
