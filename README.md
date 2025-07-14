@@ -1,4 +1,4 @@
-# Lab Assignment 1 Strategy Design Pattern
+# Strategy Design Pattern
 
 **Problem scenario:**
 
