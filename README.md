@@ -1,4 +1,4 @@
-# Strategy Design Pattern
+# Game Character Combat Strategies
 
 **Problem scenario:**
 
