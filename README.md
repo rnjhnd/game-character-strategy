@@ -22,36 +22,36 @@ B. AttackStrategy
 
 **Refactor the existing codes and provide the UML Class Diagram:**
 
-    public class Character {
-        private String type;
-    
-        public Character(String type) {
-            this.type = type;
-        }
-    
-        public void attack() {
-            if (type.equals("Knight")) {
-                System.out.println("Knight attacks with a sword!");
-            } else if (type.equals("Wizard")) {
-                System.out.println("Wizard casts a spell!");
-            } else if (type.equals("Archer")) {
-                System.out.println("Archer shoots an arrow!");
-            }
-        }
-    
-        public void defend() {
-            if (type.equals("Knight")) {
-                System.out.println("Using a shield to defend!");
-    	System.out.println("Dodgin to avoid attack!");
-                System.out.println("Creating a magic barrier for defense!");		
-    
-            } else if (type.equals("Wizard")) {
-                System.out.println("Creating a magic barrier for defense!");
-            } else if (type.equals("Archer")) {
-                System.out.println("Using a shield to defend!");
-            }
+```java
+public class Character {
+    private String type;
+
+    public Character(String type) {
+        this.type = type;
+    }
+
+    public void attack() {
+        if (type.equals("Knight")) {
+            System.out.println("Knight attacks with a sword!");
+        } else if (type.equals("Wizard")) {
+            System.out.println("Wizard casts a spell!");
+        } else if (type.equals("Archer")) {
+            System.out.println("Archer shoots an arrow!");
         }
     }
 
+    public void defend() {
+        if (type.equals("Knight")) {
+            System.out.println("Using a shield to defend!");
+            System.out.println("Dodging to avoid attack!");
+            System.out.println("Creating a magic barrier for defense!");
+        } else if (type.equals("Wizard")) {
+            System.out.println("Creating a magic barrier for defense!");
+        } else if (type.equals("Archer")) {
+            System.out.println("Using a shield to defend!");
+        }
+    }
+}
+```
 ## UML Class Diagram:
 ![411860667-8a0ec9a7-54c1-4e24-9a78-846914b79115](https://github.com/user-attachments/assets/65771e6b-3a3c-49d2-92cd-13d9075fc78d)
